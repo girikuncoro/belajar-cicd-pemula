@@ -51,4 +51,4 @@ jobs:
         tags: |
           nichocha/belajar-cicd:latest
           nichocha/belajar-cicd:pr-${{ env.PR_NUMBER }}
-          nichocha/belajar-cicd:pr-${{ env.SEQUENCE_NUMBER_KKIBCA }}
+          nichocha/belajar-cicd:seq-${{ env.SEQUENCE_NUMBER_KKIBCA }}
